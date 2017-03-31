@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+    <link rel="stylesheet" href="./assets/css/style.css"></link>    
+</head>
+<script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="./assets/js/fabric.min.js" type="text/javascript"></script>
+<script src="./assets/js/FileSaver.min.js" type="text/javascript"></script>
+<script src="./assets/js/canvas-toBlob.js" type="text/javascript"></script>
+<script src="./assets/js/draw.js" type="text/javascript"></script>
+<body>
+	<div id="wrapper">
+		<div id="menu">
+			<button id="state">Draw</button>
+			<input id="customText" type="text" name="customText" value="">
+			<div id="font-size" value=""></div>
+			<div id="size-fonts">
+				<button id="font-18" value="18" class="size-font">small</button>
+				<button id="font-24" value="24" class="size-font">normal</button>
+				<button id="font-32" value="32" class="size-font">large</button>
+				<button id="font-48" value="48" class="size-font">huge</button>
+			</div>
+			<button id="text">Add Text</button>
+			<div id="chosen-color" value=""></div>
+			<div id="chosen-size" value=""></div>			
+			<div id="color-options">
+				<button id="black" value="black" class="color-option">Black</button>
+				<button id="red" value="red" class="color-option">Red</button>
+				<button id="blue" value="blue" class="color-option">Blue</button>
+				<button id="yellow" value="yellow" class="color-option">Yellow</button>
+				<button id="pink" value="pink" class="color-option">Pink</button>
+				<button id="purple" value="purple" class="color-option">Purple</button>
+				<button id="grey" value="grey" class="color-option">Grey</button>
+				<button id="green" value="green" class="color-option">Green</button>
+				<button id="brown" value="brown" class="color-option">Brown</button>
+				<button id="white" value="white" class="color-option">Eraser</button>
+			</div>
+			<div id="size-options">
+				<button id="very-small" value="2" class="size-option">2px</button>
+				<button id="small" value="5" class="size-option">5px</button>
+				<button id="medium" value="10" class="size-option">10px</button>
+				<button id="large" value="20" class="size-option">20px</button>
+			</div>
+			<button id="clear">Clear</button>
+			<button id="delete">Delete</button>
+			<button id="save">Save</button>
+			<div id="stickers">
+				<img id="sticker-one" src="./assets/images/Jerry.png" class="cartoon-characters">
+				<img id="sticker-two" src="./assets/images/Piglet.png" class="cartoon-characters">
+				<img id="sticker-three" src="./assets/images/Stitch.png" class="cartoon-characters">
+				<img id="sticker-four" src="./assets/images/Taz.png" class="cartoon-characters">
+				<img id="sticker-four" src="./assets/images/Anger.png" class="cartoon-characters">
+				<img id="sticker-four" src="./assets/images/Squirel.png" class="cartoon-characters">
+				<img id="sticker-four" src="./assets/images/Unicorn.png" class="cartoon-characters">
+			</div>
+		</div>
+		<canvas id="c" width="600" height="400"></canvas>
+    </div>
+</body>
+</html>

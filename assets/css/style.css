@@ -1,0 +1,74 @@
+html,
+body,
+div,
+h1,
+p,
+a,
+video {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+#c {
+	width: 600px;
+	height: 300px;
+	border: 1px solid black;	
+}
+
+.color-option {
+	display: inline-block;
+	border: 1px solid black;
+	margin: 10px;
+	height: 50px;
+	width: 100px;	
+}
+
+#black {
+	background-color: black;
+}
+#red {
+	background-color: red;
+}
+#blue {
+	background-color: blue;
+}
+#yellow {
+	background-color: yellow;
+}
+#pink {
+	background-color: pink;
+}
+#purple {
+	background-color: purple;
+}
+#grey {
+	background-color: grey;
+}
+#green {
+	background-color: green;
+}
+#brown {
+	background-color: brown;
+}
+#white {
+	background-color: white;
+}
+
+#stickers {
+	width: 100%;	
+}
+
+.cartoon-characters {
+	display: inline-block;
+	max-width: 100px;	
+	margin: 10px;
+}
